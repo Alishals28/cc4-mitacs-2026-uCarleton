@@ -4,10 +4,10 @@ from threading import Thread, Event
 import warnings
 from typing import Any, Tuple, Union
 
-import gym
+import gymnasium as gym
 import numpy as np
 import pygame
-from gym.utils import seeding
+from gymnasium.utils import seeding
 
 from CybORG.Simulator.SimulationController import SimulationController
 from CybORG.Shared import Observation, Results, CybORGLogger

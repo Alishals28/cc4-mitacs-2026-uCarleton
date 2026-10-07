@@ -1,4 +1,4 @@
-from gym.utils import seeding
+from gymnasium.utils import seeding
 from CybORG.Shared import Results
 
 class BaseAgent:

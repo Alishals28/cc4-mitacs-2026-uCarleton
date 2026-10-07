@@ -1,6 +1,6 @@
 # Copyright DST Group. Licensed under the MIT license.
-import gym
-from gym.utils.seeding import RandomNumberGenerator
+import gymnasium as gym
+from gymnasium.utils.seeding import RandomNumberGenerator
 
 from typing import Dict, List, Tuple
 from CybORG.Shared import Scenario

@@ -2,7 +2,7 @@
 ## Additionally, we waive copyright and related rights in the utilized code worldwide through the CC0 1.0 Universal public domain dedication.
 import copy
 from datetime import datetime
-from gym.utils.seeding import RandomNumberGenerator
+from gymnasium.utils.seeding import RandomNumberGenerator
 from ipaddress import IPv4Address, IPv4Network
 from math import sqrt
 from typing import Dict, List

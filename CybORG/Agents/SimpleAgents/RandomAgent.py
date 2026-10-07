@@ -2,7 +2,7 @@ from inspect import signature
 from typing import Union
 
 from gymnasium import Space
-from gym.vector.utils import spaces
+from gymnasium.vector.utils import spaces
 
 from CybORG.Agents.SimpleAgents.BaseAgent import BaseAgent
 

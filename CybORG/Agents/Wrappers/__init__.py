@@ -3,5 +3,8 @@ from .TrueStateWrapper import TrueStateTableWrapper
 from .BlueFixedActionWrapper import BlueFixedActionWrapper
 from .BlueFlatWrapper import BlueFlatWrapper
 from .BlueEnterpriseWrapper import BlueEnterpriseWrapper
-from .EnterpriseMAE import EnterpriseMAE
+try:
+	from .EnterpriseMAE import EnterpriseMAE
+except ImportError:
+	EnterpriseMAE = None
 from .VisualiseRedExpansion import VisualiseRedExpansion

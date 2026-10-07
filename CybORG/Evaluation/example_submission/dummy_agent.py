@@ -1,5 +1,5 @@
 
-from gym import Space
+from gymnasium import Space
 from CybORG.Agents import BaseAgent
 
 class DummyAgent(BaseAgent):

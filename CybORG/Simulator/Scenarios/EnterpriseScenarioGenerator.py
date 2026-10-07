@@ -3,7 +3,7 @@ from ipaddress import IPv4Network
 from typing import Dict, List, Type, Tuple
 import inspect
 
-from gym.utils.seeding import RandomNumberGenerator
+from gymnasium.utils.seeding import RandomNumberGenerator
 import numpy as np
 
 from CybORG.Agents import SleepAgent
